@@ -10,3 +10,7 @@ This project analyzes loan approval data, aiming to understand feature importanc
 ### Assignment 2: Impact of Differential Privacy on Decision Tree Regression Performance
 
 This project evaluates the impact of Differential Privacy (DP) on data utility and model performance using a Decision Tree Regressor. We trained four models: one on original data, one on DP-processed data, one with DP-enhanced training on original data, and one with DP-enhanced training on DP data. Key metrics such as R² score, MAE, RMSE, and MAPE were analyzed to compare performance. The results indicate that while DP reduces data utility, DP-enhanced training helps mitigate performance loss. This study highlights the trade-off between privacy and predictive accuracy in machine learning.
+
+### Assignment 4: Loan Approval Prediction with Reweighting Analysis
+
+The project is focused on analyzing and predicting loan approval status. The code involves data preprocessing, handling missing values, encoding categorical variables, and visualizing the impact of protected features on loan approval. A RandomForestClassifier is used to predict loan approval, and the dataset is checked for class imbalance, which is addressed through reweighting techniques. The project aims to build a fair and accurate model for loan approval prediction while considering the impact of various protected features.
